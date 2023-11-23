@@ -1,0 +1,173 @@
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-white-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol,
+li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.link{
+
+    text-decoration: none;
+  
+}
+.list {
+    list-style: none;
+}
+.nav{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: 1px solid red;
+}
+.logo {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 20px;
+        width: 200px;
+        margin-bottom: 15px;
+        outline: 1px solid rgb(255, 0, 0);
+    
+}
+.group{
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding: 20px;
+            outline: 1px solid red;
+}
+
+.text{
+    /* display: inline-block; */
+        margin-top: 40px;
+        padding: 20px;
+        margin-bottom: 15px;
+    outline: 1px solid red;
+}
+.block{
+    /* display: inline-block; */
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 20px;
+    outline: 1px solid red;
+}
+.fl-nav {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: 1px solid red;
+}
+/* .fl-nav--active{
+    color:rgb(0, 255, 26);
+} */
+.current {
+    color:rgb(250, 138, 0);
+}
+.galery{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content:space-around; */
+    /* align-items: center; */
+}
+
+.galery__image  {
+     margin-top: 40px;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    outline: 1px solid rgb(255, 0, 0);
+
+}
+.galery__logo {
+    margin-top: 40px;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    outline: 1px solid rgb(255, 0, 0);
+}
+.galery__image:not(:last-child) {
+    /* маржини є у всіх окрім останнього */
+    margin-right: 30px;
+}
+.galery__logo +.galery__logo {
+    /* маржини є у всіх окрім першого зліва( друга техніка)*/
+    margin-left: 30px;
+}
+
+.section{
+    display: flex;
+    border: 9px solid blueviolet;
+}
+.section-title{
+    /* display: block; */
+    outline: 5px solid brown;
+    padding: 20px;
+}
+.block-list {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 300px;
+    outline: 1px solid red;
+}
+
+.fl-text {
+    /* display: inline-block; */
+    margin-top: 40px;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 500px;
+    outline: 1px solid red;
+}
+.fl-block{
+    display: flex;
+    flex-direction: column;
+}
+.block {
+    /* display: inline-block; */
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 300px;
+    outline: 1px solid red;
+}
+
+
+
+.thumb {
+    outline: 31px solid red;
+    width: 600px;
+}
+
+.team {
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-img {
+    outline: 3px solid red;
+
+    width: 50%;
+    object-fit: cover;
+}
